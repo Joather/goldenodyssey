@@ -46,12 +46,21 @@ body {
     padding: 1em;
 }
 
+.conteudo_topico {
+    display: flex;
+}
+
 .cabecalho_item {
     color: var(--dourado-texto);
     text-decoration: none;
     transition: color 0.3s ease;
     padding-right: 10px;
     font-family: var(--fonte-secundaria);
+}
+
+.conteudo_wiki_imagem {
+    height: 3em;
+    width: 10em;
 }
 
 .cabecalho_item:hover {
