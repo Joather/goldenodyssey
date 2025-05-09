@@ -59,8 +59,9 @@ body {
 }
 
 .conteudo_wiki_imagem {
-    height: 3em;
-    width: 10em;
+    height: 20em;
+    width: 15em;
+    margin: 1em;
 }
 
 .cabecalho_item:hover {
