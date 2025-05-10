@@ -58,10 +58,26 @@ body {
     font-family: var(--fonte-secundaria);
 }
 
-.conteudo_wiki_imagem {
+.descrição_wiki_imagem {
     height: 20em;
     width: 15em;
     margin: 1em;
+    border: 1px solid var(--branco-texto);
+    border-radius: 10px;
+}
+
+.descrição_wiki {
+    color: var(--branco-texto);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border: 2px solid var(--branco-texto);
+    border-radius: 10px;
+}
+
+.descrição_wiki_texto {
+    border: 1px solid var(--branco-texto);
+    border-radius: 10px;
 }
 
 .cabecalho_item:hover {
